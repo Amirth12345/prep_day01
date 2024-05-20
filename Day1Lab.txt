@@ -1,11 +1,22 @@
+Lab2 - create a  pod 
+        kubectl get pods  
+            no pods
+        kubectl run s1 --image=nginx 
+        kubectl get pods  
+                1 pod 
+        kubectl describe pods s1 
+        kubectl delete pods s1         	
+        kubectl run s3 --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080
+
+
 Lab1 - Start a cluster 
         Minikube (docker playground) or windows
             minikube start 
-            kubectl get nodes 
+        OR
         kubeadm (k8s playground)
             kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16
-            kubectl get nodes 
-
+        
+        kubectl get nodes 
 
 Prep. - search for k8s playground
         login using either docker or github
