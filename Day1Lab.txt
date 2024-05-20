@@ -1,3 +1,12 @@
+Lab1 - Start a cluster 
+        Minikube (docker playground) or windows
+            minikube start 
+            kubectl get nodes 
+        kubeadm (k8s playground)
+            kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16
+            kubectl get nodes 
+
+
 Prep. - search for k8s playground
         login using either docker or github
             create new instance 
