@@ -1,3 +1,19 @@
+Lab3 - create a deployment (-> pod)
+            https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+        kubectl create deployment d1 --image=nginx
+        kubectl get deployments  (deploy)
+        kubectl get pods (po) 
+            -> 1 deployment = 1 pod
+            check life time, and copy name of pod
+        kubectl delete podname 
+        kubectl get pods        
+            observe new pod is created
+        
+        Create deployment with multiple pods 
+            kubectl create deployment s2 --image=nginx --replicas=3
+        Observe -> 3 pods getting created, delete any one, observe new created pod 
+
+
 Lab2 - create a  pod 
         kubectl get pods  
             no pods
