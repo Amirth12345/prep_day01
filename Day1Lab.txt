@@ -1,0 +1,4 @@
+Prep. - search for k8s playground
+        login using either docker or github
+            create new instance 
+            
