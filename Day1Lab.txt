@@ -1,4 +1,13 @@
 Prep. - search for k8s playground
         login using either docker or github
             create new instance 
-            
+
+        or 
+            on local machine(Widnows)
+                docker install - https://docs.docker.com/desktop/install/windows-install/
+                minikube install - 
+                https://minikube.sigs.k8s.io/docs/start/
+        or 
+            on docker playground 
+                https://minikube.sigs.k8s.io/docs/start/ 
+                        linux,             
